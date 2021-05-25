@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL:](https://github.com/je-jo/single-introductory-section)
-- [Live Site URL:](https://je-jo.github.io/single-introductory-section/)
+- [Solution URL](https://github.com/je-jo/single-introductory-section)
+- [Live Site URL](https://je-jo.github.io/single-introductory-section/)
 
 ## My process
 
