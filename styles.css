@@ -8,7 +8,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    outline: 1px solid red;
 }
 
 body {
@@ -35,7 +34,7 @@ body {
 img {
     display: block;
     width: 100%;
-    /* height: auto; */
+    height: 100%;
     margin: 55px 0;
 }
 
@@ -70,6 +69,7 @@ p {
     font-size: 0.8em;
     text-align: center;
     margin: 20px auto;
+    box-shadow: 3px 2px 31px -17px #000;
 }
 
 .button:hover {
@@ -77,10 +77,22 @@ p {
     color: #fff;
 }
 
+
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+
+}
+
+
+
 ul {
     list-style-type: none;
-    margin: 60px auto 0;
-    background-color: yellowgreen;
+    margin: 40px auto 20px;
 }
 
 li {
@@ -102,12 +114,8 @@ i:hover {
     border-color: var(--softmagenta);
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: yellow;
+a {
+    text-decoration: none;
 }
 
 footer p {
@@ -121,7 +129,6 @@ footer p {
 
 .attribution a { 
     color: #fff; 
-    text-decoration: none;
 }
 
 .attribution a:hover {
@@ -133,7 +140,7 @@ footer p {
     body {
         background: url(images/bg-desktop.svg), var(--violet);
         background-repeat: no-repeat;
-    /* background-size: contain; */
+    background-size: 100%;
     }
 
    .flex-container {
@@ -177,10 +184,22 @@ p {
 }
 
 ul {
-    margin: 0;
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    margin: 40px 5% 20px 0;
+    text-align: right;
+}
+
+i {
+    font-size: 1.4em;
+    padding: 8px;
+    margin: 0 7px;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    
 }
         
     }
