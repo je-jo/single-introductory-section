@@ -27,6 +27,7 @@ body {
 
 .page {
     margin: 10%;
+    margin-bottom: 115px !important;
 }
 
 img {
@@ -75,6 +76,14 @@ p {
     color: #fff;
 }
 
+.footer-bkg {
+    height: 115px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--violet);
+}
 
 footer {
     position: fixed;
@@ -178,6 +187,13 @@ p {
     border-radius: 30px;
     font-size: 1.3em;
     margin: 10px 0;
+}
+
+.footer-bkg {
+    background: url(images/bg-desktop.svg), var(--violet);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-attachment: fixed;
 }
 
 ul {
