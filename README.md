@@ -52,6 +52,8 @@ Users should be able to:
 
 Need to learn to hide scrollable content beneath transparent header.
 
+UPDATE 2022/08/01 - Replaced fixed footer with regular, updated layout.
+
 ### Useful resources
 
 - [GIMP](https://www.gimp.org/) - For measuring and layering challenge screenshots with my WIP screenshots.
